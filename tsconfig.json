@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "lib": [
+      "DOM",
+      "ES2019"
+    ],
+    "types": [
+      "node",
+      "jest"
+    ],
+    "module": "commonjs",
+    "outDir": "./lib",
+    "strict": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": false,
+    "noUnusedLocals": true,
+    "declaration": true,
+    "allowUmdGlobalAccess": true
+  },
+  "files": [
+    "node_modules/@akashic/akashic-engine/index.runtime.d.ts",
+  ],
+  "include": [
+    "./src/**/*.ts"
+  ],
+  "exclude": [
+    "./src/__tests__/**/*.ts"
+  ]
+}
